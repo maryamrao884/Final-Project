@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "cd AgrifeedBazar && npm start",
+    "backend": "cd AgrifeedBazar/backend && npm start",
+    "install-all": "npm install && cd AgrifeedBazar && npm install && cd backend && npm install"
+  },
+  "dependencies": {
+    "mongoose": "^9.6.1"
+  }
+}
